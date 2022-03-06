@@ -1,19 +1,24 @@
 import Head from "next/head"
 
-import { Header, Main, Footer } from "../styles/Home"
+import { Main } from "../styles/Home"
+import { GlobalHeader as Header } from "../styles/Components/GlobalHeader"
+import { GlobalFooter as Footer } from "../styles/Components/GlobalFooter"
+import Carousel from "../styles/Components/Carousel"
 
 export default function Home() {
 	return (
 		<>
 			<Head>
-				<title></title>
+				<title>WizeBand</title>
 			</Head>
 
-			<Header></Header>
+			<Header />
 
-			<Main></Main>
+			<Main>
+				<Carousel />
+			</Main>
 
-			<Footer></Footer>
+			<Footer />
 		</>
 	)
 }

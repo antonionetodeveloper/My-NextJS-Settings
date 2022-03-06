@@ -1,3 +1,3 @@
 /*                  PALLET                  */
 
-// export const ColorOwn = ....
+export const FontCollor = "#604648"
